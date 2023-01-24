@@ -1,0 +1,29 @@
+version: 2
+
+sources:
+  - name: casa_andina_dbo
+    tables:
+    - name: cliente
+    - name: distrito
+    - name: provincia
+    - name: departamento
+    - name: trabajador
+    - name: area
+    - name: reservacion
+    - name: detalle_incidencia_habitacion
+    - name: detalle_habitacion_reserva
+    - name: detalle_adicional_reservacion
+    - name: multitabla
+    - name: habitacion
+    - name: sede
+    - name: adicional
+    - name: incidencia
+  - name: ca_dev
+    tables:
+    - name: dimCliente
+    - name: dimAdicional
+    - name: dimHabitacion
+    - name: dimIncidencia
+    - name: dimSede
+    - name: dimTiempo
+    - name: dimTrabajador
